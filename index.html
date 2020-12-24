@@ -10,30 +10,36 @@
         <title>Login Page</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-        <div class="login-container">
+        <div class="outer-container">
             <div class="logo-img">
-                <img src="./logo.png" alt="">
+                <img src="./logov2.png" alt="">
             </div><!--/logo-img-->
-            <div class="login-form">
-                <form action="">
-                    <div class="form-input">
-                        <input type="text" placeholder="Enter Username" name="uname" required>
-                    </div><!--/form-input-->
-                    <div class="form-input">
-                        <input type="text" placeholder="Enter Username" name="uname" required>
-                    </div><!--/form-input-->
-                    <div class="form-input">
-                        <button type="submit">Login</button>
-                    </div><!--/form-input-->
-                </form>
-            </div><!--/login-form-->
-        </div><!--/login-container-->
+            <div class="login-container">
+                <h1>Welcome</h1>
+                <div class="login-form">
+                    <form action="">
+                        <div class="form-input">
+                            <label for="username">Username</label><br>
+                            <input type="text" placeholder="Username..." name="username" required>
+                        </div><!--/form-input-->
+                        <div class="form-input">
+                            <label for="password">Password</label><br>
+                            <input type="text" placeholder="Password..." name="password" required>
+                        </div><!--/form-input-->
+                        <div class="form-input">
+                            <button type="submit">Login</button>
+                        </div><!--/form-input-->
+                    </form>
+                </div><!--/login-form-->
+            </div><!--/login-container-->
+        </div><!--/outer-container-->
     </body>
 </html>
