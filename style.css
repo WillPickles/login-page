@@ -19,12 +19,13 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 html {
-    background: url(./bg2.jpg) no-repeat center center fixed;
+    background: url(./bg5.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
 }
 body, html {
     height: 100%;
@@ -33,7 +34,7 @@ body, html {
 
 /*Login Form*/
 .outer-container{
-    margin-top: 10vh;
+    margin-top: 5vh;
     margin: auto;
     width: 30vh;
 }
@@ -47,7 +48,7 @@ body, html {
     margin-top: 10vh;
     width: 40vh;
     height: 40vh;
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .4); 
     border-radius: 5px;
     position: relative;
     z-index: 1;
@@ -65,7 +66,7 @@ body, html {
     left: 0;
     right: 0;
     bottom: 0;
-    box-shadow: inset 0 0 2000px rgba(0, 0, 0, .8);
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
     filter: blur(10px);
     margin: -20px;
 }
@@ -81,7 +82,7 @@ body, html {
 }
 .login-form label {
     color: white;
-    text-shadow: 1px 1px black;
+
     font-size: 2vh;
 }
 .login-form input {
@@ -91,7 +92,7 @@ body, html {
     border-bottom: 1px solid green;
     background: transparent;
     color: white;
-    
+    font-size: 1.5vh;
 }
 .login-form input::placeholder {
     opacity: 1;
@@ -115,5 +116,5 @@ body, html {
     background: transparent;
     color: white;
     border: 1px solid green;
-
+    cursor: pointer;
 }
